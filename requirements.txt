@@ -1,0 +1,10 @@
+pymongo>=4.6            # MongoDB client
+python-dotenv>=1.0       # Load .env variables
+numpy>=1.26              # Random numbers, arrays
+pandas>=2.2              # DataFrame manipulation
+scikit-learn>=1.3        # ML models (RandomForest, train/test split)
+joblib>=1.3              # Save/load trained models
+certifi>=2023.7.22       # TLS/SSL certificates for pymongo
+tqdm>=4.66
+matplotlib
+

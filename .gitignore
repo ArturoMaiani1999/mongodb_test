@@ -1,0 +1,20 @@
+# .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Environment variables
+.env
+.env.*   # any extra .env files
+
+# Data files
+data/raw/
+data/derived/
+
+# ML model outputs
+ml/*.pkl
+
+# VSCode settings
+.vscode/
